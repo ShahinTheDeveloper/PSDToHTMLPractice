@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navpadding{
+    padding: 0px;
+}
+.logomargin{ margin: 5px 0px;}
+
+.navstyle{
+    text-align: left;
+    border-bottom: 3px solid #343a40;
+    border-top: 3px solid #343a40;
+}
+.navstyle:hover{
+    background-color: black;
+    border-top: 3px solid yellow;
+    border-bottom: 3px solid black;
+    
+    
+}
+@font-face{
+    src:url(../fonts/ARDECODE.ttf);
+    font-family: ard;
+}
+#bookapackage{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -70px;
+}
+.circle{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 75px;
+    background-color: white;
+    
+}
+.br{
+    border-radius: 30px;
+}
+.brb{
+    border: 1px solid black;
+}
+.parents{
+    position: relative;
+}
+.child{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+@media (min-width:1200px){
+    .locate{
+        min-height: 170px;
+    }
+    .child{
+    position: absolute;
+    bottom: -39px;
+    left: 0;
+}
+}

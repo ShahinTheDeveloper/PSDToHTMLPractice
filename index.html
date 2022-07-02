@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 4 Practice</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark navpadding">
+        <div class="container">
+            <div class="logo">
+                <a href="#" class="navbar-brand logomargin"><img src="images/hotel-deluxe.png" alt="logo"></a>
+                <span class="align-bottom text-white ml-2"><i>Hotel &amp; Motel Theme</i></span>
+            </div>
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="pl-2 nav-link text-white navstyle">START</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="pl-2 nav-link text-white navstyle">FACILITIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="pl-2 nav-link text-white navstyle">RESTURENT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="pl-2 nav-link text-white navstyle">CONFERENCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="pl-2 nav-link text-white navstyle">BOOKING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="pl-2 nav-link text-white navstyle">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pos" style="position: relative">
+        <div class="bg-block text-center " style="background-color: deepskyblue;"><br><br>
+            <p class="align-centar text-light"><b class="text-white">Hello </b>You've Reached</p><br>
+            <h1 class="text-white"><b>HOTEL DELUXE</b></h1><br>
+            <p class="text-white" style="letter-spacing: 3px">HOTEL - SPA SALOON - FINE DINING</p><br><br><br><br>
+
+        </div>
+
+        <div id="bookapackage">
+            <div class="container d-flex justify-content-center">
+
+                <form action="">
+                    <div class="form-row d-flex justify-content-center bg-dark px-3  border Rounded py-2 shadow-lg bg-dark mb-4 ">
+                        <div class="form-group col-3">
+                            <lebel style="color: yellow">Arrival</lebel><br>
+                            <input type="date" class="form-control border rounded">
+                        </div>
+                        <div class="form-group col-3">
+                            <lebel style="color: yellow">Departure</lebel><br>
+                            <input type="date" class="form-control border rounded">
+                        </div>
+                        <div class="form-group col-3">
+                            <div class="">
+                                <lebel style="color: yellow">Room Type</lebel><br>
+                                <div>
+                                    <select class="form-control ">
+                                        <option selected>Select Type</option>
+                                        <option value="">Standerd Double Room</option>
+                                        <option value="">Superior Double Room</option>
+                                        <option value="">Family Room</option>
+                                        <option value="">Standerd Single Room</option>
+                                        <option value="">Superior Single Room</option>
+                                        <option value="">VIP Room</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 ">
+                            <div class="form-group">
+                                <br>
+                                <button type="submit" class="form-control btn btn-warning  rounded brb" > <b>View-Price</b></button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-image: url(images/background.jpg); min-height: 500px;">
+        <div class="container">
+            <br><br><br><br>
+            <h1 class="text-center" style="font-family: ard; font-size: 60px">Book A Package</h1>
+            <p class="text-center">Sed euismod sem id consequat rutrum. Ut convallis lorem a orci mollis, eu vulputate libero aliquet.Praesent egestas nisi sed purus tincidunt faucibus. Aliquam lobortis orci lacus, sed faucibus augue dapibus vitae.Ut vitae mi sapien. Phasellus a eros justo. Curabitur odio massa, tincidunt nec nibh sit amet
+            </p><br><br><br>
+            <div class="d-flex justify-content-center">
+                <img class="mr-5" src="images/Left_indicator.png" alt="arrow" style="max-height: 75px; margin-top: 37.5px">
+                <div class="mx-2 circle">
+
+                </div>
+                <div class="mx-2 circle">
+
+                </div>
+                <div class=" mx-2 circle">
+
+                </div>
+                <img class="img-fluid ml-5" src="images/Right_indicator.png" alt="arrow" style="max-height: 75px; margin-top: 37.5px">
+            </div>
+        </div>
+        <br> <br> <br> <br>
+    </div>
+    <div style="background-image: url(images/room_type_background.jpg); background-size: cover ">
+        <br><br>
+        <h1 class="text-center" style="font-family: ard; font-size: 60px">Our Room Type</h1><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-6 col-md-12 pb-5 px-2">
+                    <div class=" text-center">
+                        <img class="img-fluid col-12 p-0" src="images/single_room.jpg" alt="">
+                        <h4>Standerd Double Room</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing alit. prae-sent scelerisque lectus vitae dui sollicitudin commondo</h6>
+                        <div class="text-center">
+                            <img src="images/air_condition.png" alt="" />
+                            <img src="images/fan.png" alt="" />
+                            <img src="images/iron.png" alt="" />
+                            <img src="images/tv.png" alt="" />
+                            <img src="images/wifi.png" alt="" />
+                            <img src="images/tea.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 pb-5 px-2">
+                    <div class="text-center">
+                        <img class="img-fluid col-12 p-0" src="images/single_room.jpg" alt="">
+                        <h4>Supperior Double Room</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing alit. prae-sent scelerisque lectus vitae dui sollicitudin commondo</h6>
+                        <div class="text-center">
+                            <img src="images/air_condition.png" alt="" />
+                            <img src="images/fan.png" alt="" />
+                            <img src="images/iron.png" alt="" />
+                            <img src="images/tv.png" alt="" />
+                            <img src="images/wifi.png" alt="" />
+                            <img src="images/tea.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 pb-5 px-2">
+                    <div class=" text-center">
+                        <img class="img-fluid col-12 p-0" src="images/single_room.jpg" alt="">
+                        <h4>Family Room</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing alit. prae-sent scelerisque lectus vitae dui sollicitudin commondo</h6>
+                        <div class="text-center">
+                            <img src="images/air_condition.png" alt="" />
+                            <img src="images/fan.png" alt="" />
+                            <img src="images/iron.png" alt="" />
+                            <img src="images/tv.png" alt="" />
+                            <img src="images/wifi.png" alt="" />
+                            <img src="images/tea.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 pb-5 px-2">
+                    <div class=" text-center">
+                        <img class="img-fluid col-12 p-0" src="images/single_room.jpg" alt="">
+                        <h4>Standerd Single Room</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing alit. prae-sent scelerisque lectus vitae dui sollicitudin commondo</h6>
+                        <div class="text-center">
+                            <img src="images/air_condition.png" alt="" />
+                            <img src="images/fan.png" alt="" />
+                            <img src="images/iron.png" alt="" />
+                            <img src="images/tv.png" alt="" />
+                            <img src="images/wifi.png" alt="" />
+                            <img src="images/tea.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 pb-5 px-2">
+                    <div class=" text-center">
+                        <img class="img-fluid col-12 p-0" src="images/single_room.jpg" alt="">
+                        <h4>Supperior Single Room</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing alit. prae-sent scelerisque lectus vitae dui sollicitudin commondo</h6>
+                        <div class="text-center">
+                            <img src="images/air_condition.png" alt="" />
+                            <img src="images/fan.png" alt="" />
+                            <img src="images/iron.png" alt="" />
+                            <img src="images/tv.png" alt="" />
+                            <img src="images/wifi.png" alt="" />
+                            <img src="images/tea.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 pb-5 px-2">
+                    <div class=" text-center">
+                        <img class="img-fluid col-12 p-0" src="images/single_room.jpg" alt="">
+                        <h4>VIP Room</h4>
+                        <h6>Lorem ipsum dolor sit amet, consectetur adipiscing alit. prae-sent scelerisque lectus vitae dui sollicitudin commondo</h6>
+                        <div class="text-center">
+                            <img src="images/air_condition.png" alt="" />
+                            <img src="images/fan.png" alt="" />
+                            <img src="images/iron.png" alt="" />
+                            <img src="images/tv.png" alt="" />
+                            <img src="images/wifi.png" alt="" />
+                            <img src="images/tea.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+    <div>
+        <div class="locate" style="background-color: yellow;">
+            <div class="container clearfix d-flex ">
+                <div class="col-8">
+                    <br>
+                    <h2 class="text-white" style="letter-spacing: 5px">143 City Located Hotels World Wide</h2> <br>
+                    <blockquote class="blockquote">
+                        <p class="text-white" style="font-size: 14px"><q>Hospitality, Quality & Good Location. We only provide you withe the best hotels</q><i>-John Doe</i></p>
+                    </blockquote>
+                </div>
+                <div class="col-4 parents ">
+                    <div class="container-fluid child">
+                        <img class="float-right img-fluid" src="images/men_picture.png" alt="">
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="bg-dark py-3" style="min-height: 300px">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-md-12 px-3 py-4">
+                    <h4>ABOUT THIS HOTEL</h4>
+                    <h6>Suspendisse erat mi, tincidunt sit amet massa quis, commodo fermentum diam. Sed nec dui nec nunc tempor interdum. <br><br>
+                        Ut vulputate augue urna, ut porta dolor imperdiet a. Vestibulum nec leo eu magna aliquam ornare.</h6>
+                </div>
+                <div class="col-xl-2 col-lg-6 col-md-12 px-3 py-4">
+                    <h4>LATEST NEWS</h4>
+                    <h6>Grand Hotel joins DeluxeHotels <br>
+                        <span style="color: yellow">15 AUG</span> <br><br>
+                        Happy Christmas To Everyone <br>
+                        <span style="color: yellow">15 AUG</span> <br><br>
+                        Best Places To Visit 2014 <br>
+                        <span style="color: yellow">15 AUG</span><br><br>
+                        Various Offers <br>
+                        <span style="color: yellow">15 AUG</span> </h6>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-12 px-3 py-4">
+                    <h4>JOIN DELUXEHOTELS</h4>
+                    <h6 >Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vestibulum blandit egestas. Nam id lectus vel orci luctus consectetur eget id elit. In tortor odio, pellentesque eu arcu sit amet, lacinia euismod nisi. Aliquam sodales tristique mauris ac fermentum. Donec vel varius ipsum. Pellentesque vitae mollis massa. <br><br>There is no costs or whatsoever so sign up today! <br><br></h6>
+                    <button type="button" class="btn btn-warning br">READ MORE</button>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-12 px-3 py-4">
+                    <h4>MEMBERS AREA</h4>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="username">Username:</label>
+                            <input type="text" class="form-control bg-dark br brb" id="username" placeholder="Enter Username" name="Username">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control bg-dark br brb" id="pwd" placeholder="Enter password" name="pswd">
+                        </div>
+                        <button type="submit" class="form-control btn btn-warning br w-100" > <b>LOGIN</b></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="" style="min-height: 60px; background-color: black">
+
+    </div>
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body></html>
